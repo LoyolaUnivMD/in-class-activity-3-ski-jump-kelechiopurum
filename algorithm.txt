@@ -1,1 +1,27 @@
-
+import Scanner 
+make a public class called Main
+  a. name the new scanner
+  b. print the welcome message
+  c. ask the user for the size of the hill (normal or large) and store it in a string
+  d. ask the user for the size of thespeed and store it in an int
+  e. Initialize variables for "height", "points+per_meter", and "par" to 0.
+  f. Use and if-else if-else structure to determine the hill characteristics\
+    i. if hilltype is normal:
+      - Set height to 46
+      - set points_per_meter to 2
+      - set par to 90
+    ii. if hilltype is large:
+      - set height to 70
+      - set points_per_meter to 1.8
+      - set par to 120
+    iii. else, display an error.
+  g. Calculate the time in air using the formula
+  h. Calculate the distance traveled using the formula
+  i. Calculate the points earned using the formula
+  j. display the calculated distance and the points earned.
+  k. Use if else statements to check the jumpers performance
+    i. if points earned is at least 61 or more, display "Great job for doing better than par!"
+    ii. if points earned is less than 10, display "What happened?".
+    iii. Else, display "sorry you didnt go very far".
+  
+  
